@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('https://www.nasa.gov/wp-content/uploads/2026/03/grc-2025-c-01602orig.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.explore {
+    margin-left: 0;
+}
+
+.btn {
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding: 12px 24px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #dc2626;
+    transform: translateY(-2px);
+}
+
+.up {
+    background: url(https://www.nasa.gov/wp-content/uploads/2026/02/ksc-20260225-ph-csh01-0077large.jpg?resize=674,1200);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+}
+
+.down {
+    background: url(https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/geospace/Carruthers%20Beauty%20Pass.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header {
+        min-height: 100vh;
+        padding: 0 1rem;
+    }
+    
+    .btn {
+        font-size: 14px;
+        max-width: 250px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        min-height: 90vh;
+    }
+    
+    .btn {
+        font-size: 18px;
+        max-width: 350px;
+    }
+}
+
+@media (min-width: 1025px) {
+    header {
+        min-height: 90vh;
+    }
+    
+    .btn {
+        font-size: 20px;
+        max-width: 400px;
+    }
+}
