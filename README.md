@@ -18,7 +18,7 @@ cours.
 
 -Cloner le repository
 
--git clone https://github.com/VOTRE_USERNAME/portfolio-freelance.git
+-git clone https://github.com/YannickOlinga/ergonomie_NASA.git
 
 -cd portfolio-freelance
 
