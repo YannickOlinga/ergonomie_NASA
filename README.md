@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+/*projet final Ergonomie et framework CSS*/
+/*ressources logiciel*/
 
-## Getting Started
+Next.js 15.1.0
+React 18.3.1
+Tailwind CSS v4.0.0
+TypeScript 5
+PostCSS 8.4.49
+/*Description*/
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ce projet est une reproduction responsive du site officiel de la NASA, développé avec Next.js 16 et Tailwind CSS v4. L'objectif était de 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+créer une expérience utilisateur moderne et accessible tout en respectant les standards web actuels et les principes d'ergonomie étudiés en 
+cours.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+/*Installation et demarrage du serveur */
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-Cloner le repository
 
-## Learn More
+-git clone https://github.com/VOTRE_USERNAME/portfolio-freelance.git
 
-To learn more about Next.js, take a look at the following resources:
+-cd portfolio-freelance
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-Installer les dépendances
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-npm install
 
-## Deploy on Vercel
+* Lancer le serveur de développement
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+/*@theme*/
+
+J'ai definis des tokens pour le background et les fonts
+
+  --color-background devient bg-background dans tailwinds
+  
+  --color-foreground: devient text-foreground dans tailwinds
+  
+  --font-sans: devient font-sans dans tailwinds
+
+  --font-mono: deient font-mono dans tailwinds
+
+/*Hiearachie visuel*/
+Nous avons priviligié les titre de haut niveau(h1) pour les liens et les informations importantes jusqu'au niveau 6(h6).
